@@ -2,7 +2,7 @@ import pulp
 
 def solver():
     # A LP problem
-    prob = pulp.LpProblem("ex2", pulp.LpMaximize)
+    prob = pulp.LpProblem("exersice1d", pulp.LpMaximize)
 
     # Variables
     y1 = pulp.LpVariable("y1", None, 0)
